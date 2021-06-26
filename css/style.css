@@ -1,0 +1,67 @@
+.homepage-width {
+  max-width: 1000px;
+  margin: auto;
+}
+body {
+  font-family: 'Dosis', sans-serif;
+	
+}
+
+h1{
+	  font-weight: bold;
+}
+h5 {
+    font-family: 'Dosis'(--bs-font-sans-serif);
+	  text-transform: uppercase;
+	  text-align: center;
+}
+p{
+	  text-align: center;
+}
+.container-1{
+	margin-top: 0px;
+margin-bottom: 30px;
+	max-width: 1360px;
+margin: 0px auto 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+padding-top: 0px;
+padding-right: 40px;
+padding-left: 40px;
+/*-webkit-box-pack: justify;*/
+}
+.heading{
+	margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2em;
+	text-align: left;
+	font-weight: 1;
+letter-spacing: 2px;
+text-transform: none;
+	display: inline-block;
+}
+.card .svg-best-seller {
+
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background: #EA8025;
+    color: #fff;
+    padding: 5px 10px;
+}
+	
+.card .best_seller .svg-best-seller {	
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.transition-fade{
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+}
